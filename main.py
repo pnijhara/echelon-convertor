@@ -6,7 +6,7 @@ which will later return a matrix converted to echelon form"""
 
 # imorting functions from other files
 from logic import logic
-from dublicate import dublicate
+from duplicate import duplicate
 from dublicate import intialize
 matrix=[]
 l2=[]
@@ -52,6 +52,6 @@ mat = entry2(m,n,matrix)
 
 #initialzing l2 and creating a deep copy of matrix in l2
 l2 = intialize(m,n,l2)
-l2 = dublicate(m,n,mat,l2)
+l2 = duplicate(m,n,mat,l2)
 ans = logic(m,n,l2)
 print(ans)
