@@ -17,7 +17,7 @@ def duplicate(m, n, matrix, l2):
 
 # initialize uses m, n, and any multidimensional array
 # initialize any array..
-def intialize(m, n, array):
+def initialize(m, n, array):
 	for i in range(m):
 	    array.append([])
 	    for j in range(n):
