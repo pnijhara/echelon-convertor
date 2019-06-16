@@ -7,7 +7,7 @@ which will later return a matrix converted to echelon form"""
 # imorting functions from other files
 from logic import logic
 from duplicate import duplicate
-from duplicate import intialize
+from duplicate import initialize
 matrix=[]
 l2=[]
 
@@ -27,8 +27,8 @@ def entry1():
 #entry2 uses entry1's return as parameter and an empty matrix as parameter for input
 def entry2(m,n,matrix):
 
-	#intializing input matrix using intialize function from dublicate file
-    matrix = intialize(m,n,matrix)
+	#initializing input matrix using initialize function from duplicate file
+    matrix = initialize(m,n,matrix)
     #input in matrix as float or int type
     for i in range (m):
         for j in range (n):
