@@ -7,7 +7,7 @@ which will later return a matrix converted to echelon form"""
 # imorting functions from other files
 from logic import logic
 from duplicate import duplicate
-from dublicate import intialize
+from duplicate import intialize
 matrix=[]
 l2=[]
 
