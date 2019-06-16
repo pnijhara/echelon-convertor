@@ -1,6 +1,6 @@
 '''
 `duplicate` file is a composition of functions
-`duplicate` and `intialize` function return matrix after intializing them
+`duplicate` and `initialize` function return matrix after initializing them
 and return them for use in main file.
 '''
 
