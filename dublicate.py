@@ -1,14 +1,14 @@
 '''
-`dublicate` file is a composition of functions
-`dublicate` and `intialize` function return matrix after intializing them
+`duplicate` file is a composition of functions
+`duplicate` and `intialize` function return matrix after intializing them
 and return them for use in main file.
 '''
 
-# dublicate uses m(rows), n(columns), matrix(input matrix)
+# duplicate uses m(rows), n(columns), matrix(input matrix)
 # and l2 (for deep copy) as parameters.
 
 
-def dublicate(m, n, matrix, l2):
+def duplicate(m, n, matrix, l2):
 	for i in range(m):
 		for j in range(n):
 			l2[i][j] = matrix[i][j]
